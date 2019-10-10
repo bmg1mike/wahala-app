@@ -7,6 +7,7 @@ namespace wahalaApI.Models
     public class User:IdentityUser
     {
         public ICollection<Wahala> Wahalas { get; set; }
+        public bool HasLeft { get; set; }
 
         public User() => Wahalas = new Collection<Wahala>();
     }

@@ -6,7 +6,7 @@ namespace wahalaApI.data
 {
     public class DataContext : IdentityDbContext
     {
-        public DataContext()
+        public DataContext(DbContextOptions<DataContext> options):base(options)
         {
             
         }

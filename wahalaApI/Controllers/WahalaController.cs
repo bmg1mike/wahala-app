@@ -5,5 +5,6 @@ namespace wahalaApI.Controllers
     public class WahalaController : Controller
     {
         
+        
     }
 }

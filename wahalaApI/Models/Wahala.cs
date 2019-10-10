@@ -1,8 +1,11 @@
+using System;
+
 namespace wahalaApI.Models
 {
     public class Wahala
     {
         public int Id { get; set; }
+        public DateTime CreatedAt { get; set; }
         public string Issue { get; set; }   
         public string  Description { get; set; }
         public string Responsibility { get; set; }
